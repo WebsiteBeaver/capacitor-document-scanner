@@ -1,0 +1,11 @@
+{
+	"appId": "com.websitebeaver.documentscanner.demo",
+	"appName": "document-scanner-demo",
+	"bundledWebRuntime": true,
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	}
+}

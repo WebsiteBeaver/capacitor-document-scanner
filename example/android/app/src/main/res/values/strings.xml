@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">document-scanner-demo</string>
+    <string name="title_activity_main">document-scanner-demo</string>
+    <string name="package_name">com.websitebeaver.documentscanner.demo</string>
+    <string name="custom_url_scheme">com.websitebeaver.documentscanner.demo</string>
+</resources>

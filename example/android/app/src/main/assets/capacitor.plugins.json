@@ -1,0 +1,10 @@
+[
+	{
+		"pkg": "@capacitor/splash-screen",
+		"classpath": "com.capacitorjs.plugins.splashscreen.SplashScreenPlugin"
+	},
+	{
+		"pkg": "document-scanner",
+		"classpath": "com.websitebeaver.documentscanner.DocumentScannerPlugin"
+	}
+]

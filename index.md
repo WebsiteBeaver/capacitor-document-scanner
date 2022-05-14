@@ -125,15 +125,10 @@ Read about [Configuring `Info.plist`](https://capacitorjs.com/docs/ios/configura
 
 ## Documentation
 
-<docgen-index>
-
 * [`scanDocument(...)`](#scandocument)
 * [Interfaces](#interfaces)
 * [Enums](#enums)
 
-</docgen-index>
-
-<docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
 ### scanDocument(...)
@@ -190,8 +185,6 @@ Opens the camera, and starts the document scan
 | ------------------- | ---------------------------- | ------------------------------------------------------------------------------- |
 | **`Base64`**        | <code>'base64'</code>        | Use this response type if you want document scan returned as base64 images.     |
 | **`ImageFilePath`** | <code>'imageFilePath'</code> | Use this response type if you want document scan returned as inmage file paths. |
-
-</docgen-api>
 
 ## License
 

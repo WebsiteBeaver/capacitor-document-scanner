@@ -41,6 +41,8 @@ const scanDocument = async () => {
 
 Here's what this example looks like with several items
 
+<video src="https://user-images.githubusercontent.com/26162804/160264220-0a77a55c-33b1-492a-9617-6d2c083b0583.mp4" data-canonical-src="https://user-images.githubusercontent.com/26162804/160264220-0a77a55c-33b1-492a-9617-6d2c083b0583.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"></video>
+
 https://user-images.githubusercontent.com/26162804/160264220-0a77a55c-33b1-492a-9617-6d2c083b0583.mp4
 
 https://user-images.githubusercontent.com/26162804/160264222-bef1ba3d-d6c1-43c8-ba2e-77ff5baef836.mp4

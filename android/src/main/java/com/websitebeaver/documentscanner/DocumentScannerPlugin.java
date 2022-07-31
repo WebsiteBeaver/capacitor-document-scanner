@@ -1,4 +1,4 @@
-package com.websitebeaver.documentscanner;
+package com.websitebeaver.capacitordocumentscanner;
 
 import androidx.activity.result.ActivityResult;
 import com.getcapacitor.JSArray;

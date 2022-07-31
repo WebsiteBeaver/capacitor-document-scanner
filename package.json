@@ -1,6 +1,6 @@
 {
   "name": "capacitor-document-scanner",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Capacitor plugin that lets you scan documents using Android and iOS",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

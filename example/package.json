@@ -16,7 +16,7 @@
     "@capacitor/core": "^3.4.3",
     "@capacitor/ios": "^3.4.3",
     "@capacitor/splash-screen": "^1.2.2",
-    "document-scanner": "file:.."
+    "capacitor-document-scanner": "file:.."
   },
   "devDependencies": {
     "@capacitor/cli": "^3.4.3",

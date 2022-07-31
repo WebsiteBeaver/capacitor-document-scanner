@@ -4,7 +4,7 @@
 		"classpath": "com.capacitorjs.plugins.splashscreen.SplashScreenPlugin"
 	},
 	{
-		"pkg": "document-scanner",
-		"classpath": "com.websitebeaver.documentscanner.DocumentScannerPlugin"
+		"pkg": "capacitor-document-scanner",
+		"classpath": "com.websitebeaver.capacitordocumentscanner.DocumentScannerPlugin"
 	}
 ]

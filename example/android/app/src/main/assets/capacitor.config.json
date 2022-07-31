@@ -1,5 +1,5 @@
 {
-	"appId": "com.websitebeaver.documentscanner.demo",
+	"appId": "com.websitebeaver.capacitordocumentscanner.demo",
 	"appName": "document-scanner-demo",
 	"bundledWebRuntime": true,
 	"webDir": "www",

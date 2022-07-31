@@ -1,5 +1,5 @@
 import { Capacitor } from '@capacitor/core'
-import { DocumentScanner, ScanDocumentResponseStatus } from 'document-scanner'
+import { DocumentScanner, ScanDocumentResponseStatus } from 'capacitor-document-scanner'
 
 /**
  * an example showing how to use the document scanner

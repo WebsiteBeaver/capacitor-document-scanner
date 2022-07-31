@@ -10,7 +10,7 @@ android {
 apply from: "../capacitor-cordova-android-plugins/cordova.variables.gradle"
 dependencies {
     implementation project(':capacitor-splash-screen')
-    implementation project(':document-scanner')
+    implementation project(':capacitor-document-scanner')
 
 }
 

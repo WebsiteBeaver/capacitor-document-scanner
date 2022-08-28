@@ -61,10 +61,11 @@ var ExceptionCode$1;
     ExceptionCode["Unavailable"] = "UNAVAILABLE";
 })(ExceptionCode$1 || (ExceptionCode$1 = {}));
 class CapacitorException$1 extends Error {
-    constructor(message, code) {
+    constructor(message, code, data) {
         super(message);
         this.message = message;
         this.code = code;
+        this.data = data;
     }
 }
 const getPlatformId$1 = (win) => {
@@ -340,10 +341,11 @@ var ExceptionCode;
     ExceptionCode["Unavailable"] = "UNAVAILABLE";
 })(ExceptionCode || (ExceptionCode = {}));
 class CapacitorException extends Error {
-    constructor(message, code) {
+    constructor(message, code, data) {
         super(message);
         this.message = message;
         this.code = code;
+        this.data = data;
     }
 }
 const getPlatformId = (win) => {

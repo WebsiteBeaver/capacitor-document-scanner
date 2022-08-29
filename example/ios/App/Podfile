@@ -1,4 +1,6 @@
-platform :ios, '12.0'
+require_relative '../../node_modules/@capacitor/ios/scripts/pods_helpers'
+
+platform :ios, '13.0'
 use_frameworks!
 
 # workaround to avoid Xcode caching of Pods that requires
@@ -9,6 +11,7 @@ install! 'cocoapods', :disable_input_output_paths => true
 def capacitor_pods
   pod 'Capacitor', :path => '../../node_modules/@capacitor/ios'
   pod 'CapacitorCordova', :path => '../../node_modules/@capacitor/ios'
+  pod 'CapacitorCamera', :path => '../../node_modules/@capacitor/camera'
   pod 'CapacitorSplashScreen', :path => '../../node_modules/@capacitor/splash-screen'
   pod 'CapacitorDocumentScanner', :path => '../../..'
 end
@@ -16,4 +19,8 @@ end
 target 'App' do
   capacitor_pods
   # Add your Pods here
+end
+
+post_install do |installer|
+  assertDeploymentTarget(installer)
 end

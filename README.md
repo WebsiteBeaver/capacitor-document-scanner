@@ -1,6 +1,6 @@
 # Capacitor Document Scanner
 
-[![Npm package version](https://img.shields.io/npm/v/capacitor-document-scanner/latest.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/capacitor-document-scanner) [![npm peer dependency version](https://img.shields.io/npm/dependency-version/capacitor-document-scanner/peer/@capacitor/core?color=119eff&logo=capacitor&style=for-the-badge)](https://github.com/WebsiteBeaver/capacitor-document-scanner/blob/master/package.json)
+[![Npm package version](https://img.shields.io/npm/v/capacitor-document-scanner/latest.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/capacitor-document-scanner) [![npm peer dependency version](https://img.shields.io/npm/dependency-version/capacitor-document-scanner/peer/@capacitor/core?color=222d3a&logo=capacitor&style=for-the-badge)](https://github.com/WebsiteBeaver/capacitor-document-scanner/blob/master/package.json)
 
 This is a Capacitor plugin that lets you scan documents using Android and iOS. You can use it to create
 apps that let users scan notes, homework, business cards, receipts, or anything with a rectangular shape.

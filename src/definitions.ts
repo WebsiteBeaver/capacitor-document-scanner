@@ -7,6 +7,12 @@ export interface DocumentScannerPlugin {
 
 export interface ScanDocumentOptions {
   /**
+   * Android only: The quality of the cropped image from 0 - 100. 100 is the best quality.
+   * @default: 100
+   */
+  croppedImageQuality?: number
+
+  /**
    * Android only: If true then once the user takes a photo, they get to preview the automatically
    * detected document corners. They can then move the corners in case there needs to
    * be an adjustment. If false then the user can't adjust the corners, and the user

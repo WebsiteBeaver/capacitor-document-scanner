@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "com.websitebeaver.capacitordocumentscanner.demo"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "com.websitebeaver.capacitordocumentscanner.demo"

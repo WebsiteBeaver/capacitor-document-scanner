@@ -59,7 +59,8 @@ public class DocumentScannerPlugin extends Plugin {
             },
             call.getString("responseType"),
             call.getBoolean(DocumentScannerExtra.EXTRA_LET_USER_ADJUST_CROP),
-            call.getInt(DocumentScannerExtra.EXTRA_MAX_NUM_DOCUMENTS)
+            call.getInt(DocumentScannerExtra.EXTRA_MAX_NUM_DOCUMENTS),
+            call.getInt(DocumentScannerExtra.EXTRA_CROPPED_IMAGE_QUALITY)
         );
 
         // launch the document scanner
